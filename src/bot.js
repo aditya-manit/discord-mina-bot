@@ -25,7 +25,7 @@ client.on('message', async (message) => {
           'By design, the entire Mina blockchain is and will always be about 22kb - the size of a couple of tweets. So anyone with a smartphone will be able to sync and verify the network in seconds.')
     }
     else if (CMD_NAME.toLowerCase() === 'sale') {
-      message.channel.send('There is no annoucement of sale at the moment, keep an eye on announcement channel.\n' +
+      message.channel.send('There is no announcement of sale at the moment, keep an eye on #announcement channel.\n' +
           'Meanwhile you can read the tokenomics here: https://minaprotocol.com/blog/mina-token-distribution-and-supply ')
     }
     else if (CMD_NAME.toLowerCase() === 'earn') {
